@@ -1,0 +1,9 @@
+%YAML:1.0
+image_num: 14
+pattern_row: 7
+pattern_col: 10
+chessboard_size: 24
+image_stored_directory: images
+image_file_label: image
+image_file_type: png
+output_file_name: camera
