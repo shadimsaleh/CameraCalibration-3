@@ -1,12 +1,23 @@
 Camera Calibration program based on OpenCV sample program
 
-You can easily use this program as follows:
+You can easily use this program based on following steps.
 
-1. Printout the chess pattern for calibration
-2. Take pictures of chess pattern at several directions (more than 15 images.)
-3. Put taken image files to somewhere. At this time, file name should be numbered as following role.
+1. Set the environmental value as follows;
+   For OpenCV directory
+   Name     : OpenCV_DIR
+   Parameter: c:\opencv\build     <- it depends on your environment.
+
+   For OpenCV running
+   Name     : PATH
+   Parameter: c:\opencv\build\bin\Debug;c:\opencv\build\bin\Release;
+   
+   After setting the parameter, please reboot your computer.
+   
+2. Printout the chess pattern for calibration
+3. Take pictures of chess pattern at several directions (more than 15 images.)
+4. Put taken image files to somewhere. At this time, file name should be numbered as following role.
    ex image000.png, image001.png
-4. Modified "calib_cfg.yml" to fit your calibration environment.
+5. Modified "calib_cfg.yml" to fit your calibration environment.
    image_num: image number for calibration
    pattern_row: row number of chess pattern
    pattern_col: colmun number of chess pattern
